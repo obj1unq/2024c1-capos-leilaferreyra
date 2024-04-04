@@ -43,4 +43,5 @@ test "rolando tiene espada del destino y collar divino. Lo deja en el castillo y
 	assert.that(rolando.posee(collarDivino))
 	assert.that(rolando.posee(armaduraDeAceroValyrio))
 	assert.notThat(rolando.posee(libroDeHechizos))
+	
 }
